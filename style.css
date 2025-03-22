@@ -1,0 +1,54 @@
+/* General styles for all pages */
+body {
+  font-family: Georgia, serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #e6f2ff; /* Light blue for most pages */
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #555;
+}
+
+nav {
+  background-color: #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+img {
+  margin: 10px;
+  width: 200px;
+  height: auto;
+}
+
+/* ✅ Unique layout only for the homepage */
+body.homepage {
+  background-color: #fffbe6; /* Soft yellow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body.homepage h1 {
+  color: #b35f00;
+}
+
+body.homepage p {
+  max-width: 700px;
+  text-align: center;
+}
